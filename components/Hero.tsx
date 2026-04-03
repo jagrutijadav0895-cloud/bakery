@@ -19,8 +19,8 @@ export default function Hero() {
         <div className="hero-image-grid">
           <div className="hero-card card-1">
             <Image
-              src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=400&h=300&q=80"
-              alt="Cupcake"
+              src="https://images.unsplash.com/photo-1614707267537-b85aaf00c4b7?auto=format&fit=crop&w=400&h=300&q=80"
+              alt="Vanilla Cupcake"
               width={400}
               height={300}
               priority
@@ -28,16 +28,16 @@ export default function Hero() {
           </div>
           <div className="hero-card card-2">
             <Image
-              src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=400&h=300&q=80"
-              alt="Cake"
+              src="https://images.unsplash.com/photo-1535139262971-c51845709a48?auto=format&fit=crop&w=400&h=300&q=80"
+              alt="Birthday Cake"
               width={400}
               height={300}
             />
           </div>
           <div className="hero-card card-3">
             <Image
-              src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=400&h=300&q=80"
-              alt="Pastry"
+              src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=400&h=300&q=80"
+              alt="Croissant"
               width={400}
               height={300}
             />
