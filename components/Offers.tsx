@@ -16,7 +16,7 @@ export default function Offers({ onAddToCart }: OffersProps) {
         description: "Custom cake + 24 cupcakes + party pack",
         price: 69.99,
         category: "cakes",
-        image: "https://images.unsplash.com/photo-1531198058175-a1b5099b2a47?auto=format&fit=crop&w=600&h=400&q=80",
+        image: "https://images.unsplash.com/photo-1535139262971-c51845709a48?auto=format&fit=crop&w=600&h=400&q=80",
         badge: "Best Value"
       } as MenuItem,
       originalPrice: 89.99,

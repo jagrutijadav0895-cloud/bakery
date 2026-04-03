@@ -7,7 +7,7 @@ export const menuItems: MenuItem[] = [
     description: "Classic red velvet with cream cheese frosting",
     price: 45.99,
     category: "cakes",
-    image: "https://images.unsplash.com/photo-1586788680434-39d3d1d21c3a?auto=format&fit=crop&w=400&h=300&q=80",
+    image: "https://images.unsplash.com/photo-1621303837174-89787a7d4729?auto=format&fit=crop&w=400&h=300&q=80",
     badge: "Bestseller"
   },
   {
