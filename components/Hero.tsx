@@ -16,32 +16,15 @@ export default function Hero() {
         </div>
       </div>
       <div className="hero-visual">
-        <div className="hero-image-grid">
-          <div className="hero-card card-1">
-            <Image
-              src="https://images.unsplash.com/photo-1614707267537-b85aaf00c4b7?auto=format&fit=crop&w=400&h=300&q=80"
-              alt="Vanilla Cupcake"
-              width={400}
-              height={300}
-              priority
-            />
-          </div>
-          <div className="hero-card card-2">
-            <Image
-              src="https://images.unsplash.com/photo-1535139262971-c51845709a48?auto=format&fit=crop&w=400&h=300&q=80"
-              alt="Birthday Cake"
-              width={400}
-              height={300}
-            />
-          </div>
-          <div className="hero-card card-3">
-            <Image
-              src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=400&h=300&q=80"
-              alt="Croissant"
-              width={400}
-              height={300}
-            />
-          </div>
+        <div className="hero-image-container">
+          <Image
+            src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&h=600&q=80"
+            alt="Fresh Bakery Selection - Croissants, Cakes, and Pastries"
+            width={800}
+            height={600}
+            priority
+            className="hero-main-image"
+          />
         </div>
       </div>
     </section>
