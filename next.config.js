@@ -5,9 +5,11 @@ const nextConfig = {
       {
         protocol: 'https',
         hostname: 'images.unsplash.com',
-        pathname: '/photo-/**',
+        pathname: '/**',
       },
     ],
+    // Allow all domains for development/testing
+    // unoptimized: true // Uncomment if images still don't load
   },
 }
 
