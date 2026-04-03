@@ -8,8 +8,7 @@ const nextConfig = {
         pathname: '/**',
       },
     ],
-    // Allow all domains for development/testing
-    // unoptimized: true // Uncomment if images still don't load
+    unoptimized: true // Disable Next.js image optimization to avoid issues with Unsplash
   },
 }
 
