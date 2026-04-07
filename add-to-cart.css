@@ -1,0 +1,69 @@
+/* Add to Cart Button Styles */
+.add-to-cart {
+  display: block;
+  width: var(--svg-width, 24px);
+  height: var(--svg-height, 24px);
+  position: var(--svg-position, relative);
+  left: var(--svg-left, 0);
+  top: var(--svg-top, 0);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.add-to-cart svg {
+  width: var(--svg-width, 64px);
+  height: var(--svg-height, 13px);
+  left: var(--svg-left, 0);
+  top: var(--svg-top, 13px);
+  position: var(--svg-position, absolute);
+  fill: var(--svg-fill, var(--cart-background, var(--cart-background-default, #000)));
+  transition: all 0.255s ease-in-out;
+  pointer-events: none;
+}
+
+.add-to-cart path {
+  fill: var(--svg-fill, var(--cart-background, var(--cart-background-default, #000)));
+  stroke: var(--svg-stroke, none);
+  stroke-width: var(--svg-stroke-width, 2);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.add-to-cart:hover svg {
+  transform: scale(1.1);
+}
+
+.add-to-cart:active svg {
+  transform: scale(0.95);
+}
+
+/* Default button styles */
+.add-to-cart-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 24px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.255s ease-in-out;
+}
+
+.add-to-cart-btn:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+
+.add-to-cart-btn:active {
+  transform: translateY(0);
+}
+
+.add-to-cart-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

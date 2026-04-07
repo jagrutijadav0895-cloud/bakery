@@ -252,6 +252,17 @@ body {
     background: var(--secondary);
 }
 
+.cart-btn .cart-icon {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+    transition: transform 0.3s ease;
+}
+
+.cart-btn:hover .cart-icon {
+    transform: scale(1.1) rotate(-10deg);
+}
+
 .cart-count {
     position: absolute;
     top: -5px;
@@ -1936,6 +1947,24 @@ section {
 
 .btn-add-cart i {
     font-size: 0.9rem;
+}
+
+/* SVG Icon for Add to Cart button (replaces Font Awesome) */
+.btn-add-cart .add-to-cart-icon {
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+    fill: currentColor;
+    flex-shrink: 0;
+    transition: transform 0.3s ease;
+}
+
+.btn-add-cart:hover .add-to-cart-icon {
+    transform: scale(1.1) rotate(-5deg);
+}
+
+.btn-add-cart:active .add-to-cart-icon {
+    transform: scale(0.95);
 }
 
 /* Animations */

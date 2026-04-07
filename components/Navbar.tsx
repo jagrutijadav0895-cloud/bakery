@@ -49,7 +49,40 @@ export default function Navbar({ cartCount, onCartClick }: NavbarProps) {
         </ul>
         <div className="nav-actions">
           <button className="cart-btn" id="cartBtn" onClick={onCartClick}>
-            <i className="fas fa-shopping-cart"></i>
+            <svg
+              className="cart-icon"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+            >
+              <path
+                d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                fill="none"
+              />
+              <path
+                d="M3 6h18"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                fill="none"
+              />
+              <path
+                d="M16 10a4 4 0 0 1-8 0"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                fill="none"
+              />
+            </svg>
             <span className="cart-count" id="cartCount">{cartCount}</span>
           </button>
           <button
