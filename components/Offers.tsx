@@ -16,7 +16,7 @@ export default function Offers({ onAddToCart }: OffersProps) {
         description: "Custom cake + 24 cupcakes + party pack",
         price: 69.99,
         category: "cakes",
-        image: "https://images.unsplash.com/photo-1535139262971-c51845709a48?auto=format&fit=crop&w=600&h=400&q=80",
+        image: "/birthday bundle.jpg",
         badge: "Best Value"
       } as MenuItem,
       originalPrice: 89.99,
@@ -31,7 +31,7 @@ export default function Offers({ onAddToCart }: OffersProps) {
         description: "6 assorted pastries + coffee bundle",
         price: 27.99,
         category: "pastries",
-        image: "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=600&h=400&q=80",
+        image: "/morning delight bo.jpg",
         badge: null
       } as MenuItem,
       originalPrice: 34.99,
@@ -45,7 +45,7 @@ export default function Offers({ onAddToCart }: OffersProps) {
         description: "12 gourmet cookies in gift box",
         price: 21.24,
         category: "cookies",
-        image: "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=600&h=400&q=80",
+        image: "/cookies collection2.jpg",
         badge: null
       } as MenuItem,
       originalPrice: 24.99,

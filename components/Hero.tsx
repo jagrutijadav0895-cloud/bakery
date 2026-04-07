@@ -18,7 +18,7 @@ export default function Hero() {
       <div className="hero-visual">
         <div className="hero-image-container">
           <Image
-            src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&h=600&q=80"
+            src="/OIP.jpg"
             alt="Fresh Bakery Selection - Croissants, Cakes, and Pastries"
             width={800}
             height={600}

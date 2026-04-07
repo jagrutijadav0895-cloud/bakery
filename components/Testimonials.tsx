@@ -5,21 +5,21 @@ export default function Testimonials() {
     {
       name: "Sarah J.",
       role: "Regular Customer",
-      image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=100&h=100&q=80",
+      image: "/OIP.jpg",
       text: "The best cupcakes I've ever had! So moist and the frosting is perfect. Sweet Crumbs has become my go-to for every celebration.",
       rating: 5
     },
     {
       name: "Michael R.",
       role: "Newlywed",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=100&h=100&q=80",
+      image: "/OIP (1).jpg",
       text: "Ordered my wedding cake from Sweet Crumbs and it was absolutely stunning AND delicious. All our guests couldn't stop raving about it!",
       rating: 5
     },
     {
       name: "Emily T.",
       role: "Food Blogger",
-      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=100&h=100&q=80",
+      image: "/strawberry cupcake.jpg",
       text: "Their croissants are legitimately the best in the city. Flaky, buttery perfection. Coffee is great too!",
       rating: 4.5
     }

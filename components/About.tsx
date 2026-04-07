@@ -33,7 +33,7 @@ export default function About() {
           </div>
           <div className="about-image">
             <Image
-              src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=600&h=400&q=80"
+              src="/oatmeal-raisin-cookies-recipe-08.webp"
               alt="Our Bakery"
               width={600}
               height={400}

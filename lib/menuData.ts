@@ -7,7 +7,7 @@ export const menuItems: MenuItem[] = [
     description: "Classic red velvet with cream cheese frosting",
     price: 45.99,
     category: "cakes",
-    image: "https://images.unsplash.com/photo-1621303837174-89787a7d4729?auto=format&fit=crop&w=400&h=300&q=80",
+    image: "/red velvet.jpg",
     badge: "Bestseller"
   },
   {
@@ -16,7 +16,7 @@ export const menuItems: MenuItem[] = [
     description: "Rich chocolate layers with fudge ganache",
     price: 42.99,
     category: "cakes",
-    image: "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=400&h=300&q=80",
+    image: "/chocolate fudge cake.jpg",
     badge: null
   },
   {
@@ -25,7 +25,7 @@ export const menuItems: MenuItem[] = [
     description: "Fluffy vanilla cupcake with vanilla buttercream",
     price: 4.99,
     category: "cupcakes",
-    image: "https://images.unsplash.com/photo-1614707267537-b85aaf00c4b7?auto=format&fit=crop&w=400&h=300&q=80",
+    image: "/venila bean.jpg",
     badge: "New"
   },
   {
@@ -34,7 +34,7 @@ export const menuItems: MenuItem[] = [
     description: "Vanilla cupcake with fresh strawberry frosting",
     price: 5.49,
     category: "cupcakes",
-    image: "https://images.unsplash.com/photo-1486427944299-d1955d23e34d?auto=format&fit=crop&w=400&h=300&q=80",
+    image: "/strawberry cupcake.jpg",
     badge: null
   },
   {
@@ -43,7 +43,7 @@ export const menuItems: MenuItem[] = [
     description: "Buttery, flaky French pastry",
     price: 3.99,
     category: "pastries",
-    image: "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=400&h=300&q=80",
+    image: "/croissant.jpg",
     badge: "Fresh Daily"
   },
   {
@@ -52,7 +52,7 @@ export const menuItems: MenuItem[] = [
     description: "Sweet pastry with fruit or cream cheese filling",
     price: 4.49,
     category: "pastries",
-    image: "https://images.unsplash.com/photo-1519915028121-7d3463d20b13?auto=format&fit=crop&w=400&h=300&q=80",
+    image: "/danish pastry.jpg",
     badge: null
   },
   {
@@ -61,7 +61,7 @@ export const menuItems: MenuItem[] = [
     description: "Chewy, loaded with chocolate chips",
     price: 2.99,
     category: "cookies",
-    image: "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=400&h=300&q=80",
+    image: "/cookies collection.jpg",
     badge: "Bestseller"
   },
   {
@@ -70,7 +70,7 @@ export const menuItems: MenuItem[] = [
     description: "Soft, chewy with oats and plump raisins",
     price: 2.99,
     category: "cookies",
-    image: "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=400&h=300&q=80",
+    image: "/oatmeal-raisin-cookies-recipe-08.webp",
     badge: null
   },
   {
@@ -79,7 +79,7 @@ export const menuItems: MenuItem[] = [
     description: "Moist carrot cake with cream cheese frosting",
     price: 39.99,
     category: "cakes",
-    image: "https://images.unsplash.com/photo-1621303837174-89787a7d4729?auto=format&fit=crop&w=400&h=300&q=80",
+    image: "/carrat cake.jpg",
     badge: null
   },
   {
@@ -88,7 +88,7 @@ export const menuItems: MenuItem[] = [
     description: "Zesty lemon cake with sweet glaze",
     price: 38.99,
     category: "cakes",
-    image: "https://images.unsplash.com/photo-1624353365286-3f8d62daad51?auto=format&fit=crop&w=400&h=300&q=80",
+    image: "/lemon drizzle cake2.jpg",
     badge: "New"
   }
 ]
